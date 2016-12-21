@@ -2,6 +2,16 @@
 <html>
     <head>
         <title> To Do List</title>
+        <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+              $('#addBtn').click(function() {
+              var text = $('#inputToDO').val();
+              $('ul').append("<li>"+ text +"</li>");
+              });
+            });
+        </script>
+        <link rel="stylesheet" type="text/css" href="index.css">
     </head>
 <body>
     <div class="toDoDiv">

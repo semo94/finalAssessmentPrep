@@ -1,0 +1,10 @@
+body{
+	background-color: pink;
+}
+h1{
+	font-family: "Times New Roman", Times, serif;
+}
+input {
+	width: 100px
+	height: 100px; 
+}
